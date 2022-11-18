@@ -21,9 +21,9 @@ public class TestTextifyGuessReport {
 	public void testTextifyTooLow() {
 		GuessReportTextifier textifier = new GuessReportTextifier();
 
-		String result = textifier.textifyGuessReport(GuessReport.TOO_LOW);
+		String result = textifier.textifyGuessReport(GuessReport.TOO_LOW)
 
-		assertEquals(result, GuessReportTextifier.TOO_LOW_TEXT, "checking result");
+		assertEquals(result, GuessReportTextifier.TOO_LOW_TEXT, "checking result"
 	}
 
 	@Test

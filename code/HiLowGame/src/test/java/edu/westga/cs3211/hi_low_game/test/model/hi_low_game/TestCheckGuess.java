@@ -24,7 +24,7 @@ class TestCheckGuess {
 		@Override
 		public int nextInt(int bound) {
 			this.lastBoundProvided = bound;
-			this.callCount++;
+			this.callCount++
 			return 2;
 		}
 	}
