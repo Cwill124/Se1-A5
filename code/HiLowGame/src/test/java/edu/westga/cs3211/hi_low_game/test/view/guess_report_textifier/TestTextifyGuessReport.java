@@ -9,7 +9,7 @@ import edu.westga.cs3211.hi_low_game.model.GuessReport;
 public class TestTextifyGuessReport  {
 
 	@Test
-	public void testTextifyTooHigh() {
+	public void testTextifyTooHighMethod() {
 		GuessReportTextifier textifier = new GuessReportTextifier();
 		
 		String result = textifier.textifyGuessReport(GuessReport.TOO_HIGH);
